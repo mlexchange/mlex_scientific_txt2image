@@ -1,0 +1,7 @@
+torch
+torchvision
+transformers
+matplotlib
+tqdm
+umap-learn
+jupyterlab

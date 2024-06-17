@@ -1,0 +1,10 @@
+torch==2.0.0
+#torchvison
+accelerate
+transformers 
+datasets 
+ftfy 
+tensorboard
+diffusers==0.20.1
+triton
+xformers==0.0.17
