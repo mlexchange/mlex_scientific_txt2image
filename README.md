@@ -24,7 +24,9 @@ Install classification environment `pip install -r requirements-classification.t
     ```  
 2. Once the diffusers model is trained, weights are saved. Then use `python3 /src/generator.py` (need to modify `generator.py` for each prompt) to generate images for a given prompt.
 3. Label the generated images.
-4. Use `src/classifier/classification.ipynb` to train an assortment of computer vision models (vision transformers etc.) to classify the generated images and save their weights.
+4. Use `src/classifier/classification.ipynb` to train an assortment of computer vision models (vision transformers etc.) to classify the generated images and save their weights. Reapeat step 3 and 4 to improve classification accuracy.
+
+## How to do inference?  
 5. Full pipeline: generate realistic from diffusers and classifiers `python3 /src/inferece.py` (need to modify `generator.py` for each prompt).
-6. An interactive interface to generate realistic scientific images from a prompt: `txt2image_widgets.ipynb` (serial) and `txt2image_widgets` (parallel).
+6. Or an interactive interface to generate realistic scientific images from a prompt: `txt2image_widgets.ipynb` (serial) and `txt2image_widgets` (parallel).
 
