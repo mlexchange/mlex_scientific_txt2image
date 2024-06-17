@@ -30,3 +30,6 @@ Install classification environment `pip install -r requirements-classification.t
 5. Full pipeline: generate realistic from diffusers and classifiers `python3 /src/inferece.py` (need to modify `generator.py` for each prompt).
 6. Or an interactive interface to generate realistic scientific images from a prompt: `txt2image_widgets.ipynb` (serial) and `txt2image_widgets` (parallel).
 
+
+## paper
+In preparation.
