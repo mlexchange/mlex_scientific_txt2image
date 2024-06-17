@@ -2,7 +2,7 @@
 A diffusion model pipeline to generate realistic scientific dataset based on iterative human labels/feedback.
 
 ## Install
-The full pipeline contains two parts, a diffusers generator and an enssemble classification process. Due to version conflicts (`xformers` are needed for finetuning and inferencing with diffusers on GPU), we install them in two different environments.
+The full pipeline contains two parts, a diffusers generator and an enssemble classification process. Due to version conflicts (`xformers==0.0.17` are needed for finetuning and inferencing with diffusers on GPU), we install them in two different environments.
 
 Install diffusers enviroment `pip install -r requirements-diffusers.txt`  
 Install classification environment `pip install -r requirements-classification.txt`
