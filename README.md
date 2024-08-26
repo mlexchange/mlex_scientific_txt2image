@@ -31,8 +31,10 @@ Install classification environment `pip install -r requirements-classification.t
 6. Or an interactive interface to generate realistic scientific images from a prompt: `txt2image_widgets.ipynb` (serial) and `txt2image_widgets` (parallel).
 
 
-## paper
-In preparation.
+## Paper
+Preprint on [arXiv](https://arxiv.org/abs/2408.12720)
+
+**BibTex**
 ```
 @misc{zhao2024generatingrealisticxrayscattering,
       title={Generating Realistic X-ray Scattering Images Using Stable Diffusion and Human-in-the-loop Annotations}, 
