@@ -34,11 +34,13 @@ Install classification environment `pip install -r requirements-classification.t
 ## paper
 In preparation.
 ```
-@misc{in preparation,
-    doi = {},
-    url = {},
-    author = {Zhao, Zhuowen and Chong, Xiaoya and Chavez, Tanny and Hexemer, Alexander},
-    keywords = {},
-    title = {Generating Realistic X-ray Scattering Images with Stable Diffusion and Continuous Human Feedback}
+@misc{zhao2024generatingrealisticxrayscattering,
+      title={Generating Realistic X-ray Scattering Images Using Stable Diffusion and Human-in-the-loop Annotations}, 
+      author={Zhuowen Zhao and Xiaoya Chong and Tanny Chavez and Alexander Hexemer},
+      year={2024},
+      eprint={2408.12720},
+      archivePrefix={arXiv},
+      primaryClass={eess.IV},
+      url={https://arxiv.org/abs/2408.12720}, 
 }
 ```
